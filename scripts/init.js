@@ -10,14 +10,14 @@
    * Set to the following to disable:
    *   const welcomeJournal = '';
    */
-  const welcomeJournal = 'Startjournal';
+  const welcomeJournal = 'Gratenfels';
   /**
    * additionalJournals will automatically be imported. This is a list of Journals by name that should
    * also be imported.
    * Set to the following to disable:
    *   const additionalJournals = [];
    */
-  const additionalJournals = ["addJournals"];
+  const additionalJournals = [];
   /**
    * additionalMacros will automatically be imported. Each name must match exactly and are case sensitive.
    * Set to the following to disable:
