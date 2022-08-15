@@ -87,6 +87,6 @@
         }
       ]
     },
-    "manifest": "",
-    "download": ""
+    "manifest": "https://raw.githubusercontent.com/derkaktus/matp_vtt_dsa5_gratenfels/main/module.json",
+    "download": "https://github.com/derkaktus/matp_vtt_dsa5_gratenfels/archive/refs/tags/1.0.0.zip"
 }
