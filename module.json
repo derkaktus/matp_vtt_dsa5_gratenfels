@@ -1,0 +1,92 @@
+{
+  "id": "matp_vtt_dsa5",
+  "name": "matp_vtt_dsa5",
+  "title": "MAtP Basismodul",
+  "description": "MAtP VTT Modul der Stadt Gratenfels mit allen individuellen Anpassungen, Charakteren und Karten.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "MAtP",
+  "authors": [
+    {
+      "name": "MAtP"
+    }
+  ],
+  "packs": [
+        {
+            "name": "gratenfels_creatures",
+            "label": "Gratenfels",
+            "path": "./packs/matp_gratenfels_creatures.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "gratenfels_items",
+            "label": "Gratenfels",
+            "path": "./packs/matp_gratenfels_items.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "gratenfels_scenes",
+            "label": "Gratenfels",
+            "path": "./packs/matp_gratenfels_scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        },
+        {
+            "name": "gratenfels_journal-entries",
+            "label": "Gratenfels",
+            "path": "./packs/matp_gratenfels_journal-entries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "gratenfels_macros",
+            "label": "Gratenfels",
+            "path": "./packs/matp_gratenfels_macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        },
+        {
+            "name": "gratenfels_roll-tables",
+            "label": "Gratenfels Spieltische",
+            "path": "./packs/matp_gratenfels_roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+        {
+            "name": "gratenfels_playlists",
+            "label": "Gratenfels Playlists",
+            "path": "./packs/matp_gratenfels_playlists.db",
+            "entity": "Playlist",
+            "type": "Playlist"
+        }
+    ],
+	"esmodules": [
+      "./scripts/init.js"
+    ],
+    "dependencies": [
+      {
+        "name": "scene-packer",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+        "type": "module"
+      }
+    ],
+    "relationships": {
+      "requires": [
+        {
+          "id": "scene-packer",
+          "type": "module",
+          "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+        }
+      ]
+    },
+    "manifest": "",
+    "download": ""
+}
